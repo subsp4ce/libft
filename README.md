@@ -1,9 +1,10 @@
 # libft
 
-To compile run `make`
+Codam [42 Network] project: the aim of this project is to code a C library which includes recoding standard C library functions as well as coding utility functions designed by 42. The bonus functions are specifically for linked lists.
 <br/><br/>
 
-The aim of this project is to code a C library which includes recoding standard C functions as well as coding utility functions designed by 42. The bonus functions are specifically for linked lists.
+### Instructions
+- run `make` to compile
 <br/><br/>
 
 ### Skills
