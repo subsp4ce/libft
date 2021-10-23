@@ -3,20 +3,20 @@
 Codam [42 Network] project: the aim of this project is to code a C library which includes recoding standard C library functions as well as coding utility functions designed by 42. The bonus functions are specifically for linked lists.
 <br/><br/>
 
-### Instructions
+## Instructions
 - run `make` to compile
 <br/><br/>
 
-### Skills
+## Skills
 - imperative programming
 - algorithms and AI
 <br/><br/>
 
-### Objectives
+## Objectives
 - Unix logic  
 <br/><br/>
 
-### Functions
+## Functions
 | libc | 42 utility | 42 linked list |
 | :------------- | :------------| :------------------- |
 | memset | ft_substr | ft_lstnew |
