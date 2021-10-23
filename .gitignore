@@ -1,0 +1,11 @@
+.DS_Store
+/libft mains tester
+/libft-criterion-unit-test
+/libft-unit-test
+/libft-unit-tests
+/Libftest
+/my_libft_tests
+run.sh
+libft_p1.c
+libft_p2.c
+libft_bonus.c
