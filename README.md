@@ -4,7 +4,10 @@ Codam [42 Network] project: the aim of this project is to code a C library which
 <br/><br/>
 
 ## Instructions
-- run `make` to compile
+- `make` compiles and creates the `libft.a` library
+- then to use you can create a simple main like this:
+![ft_split](https://github.com/subsp4ce/pics/blob/master/ft_split.png "ft_split")
+- now compile with `gcc file.c -L. -lft` and run program `./a.out`
 <br/><br/>
 
 ## Skills
@@ -43,7 +46,3 @@ Codam [42 Network] project: the aim of this project is to code a C library which
 | tolower ||
 | calloc ||
 | strdup ||
-
-<br/><br/>
-
-![Northern Lights](https://github.com/subsp4ce/pics/blob/master/pexels-frans-van-heerden-624015.jpg "Northern Lights")
