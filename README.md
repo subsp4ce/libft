@@ -4,10 +4,31 @@ Codam [42 Network] project: the aim of this project is to code a C library which
 <br/><br/>
 
 ## Instructions
-- `make` compiles and creates the `libft.a` library
-- then to use you can create a simple main like this:
-![ft_split](https://github.com/subsp4ce/pics/blob/master/ft_split.png "ft_split")
-- now compile with `gcc file.c -L. -lft` and run program `./a.out`
+- run `make` to compile and create the `libft.a` library
+- write a simple main such as this:
+``` C
+#include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  char  **str;
+  int   i;
+  
+  str = ft_split("split,this,string,on,commas", ',');
+  i = 0;
+  while (str[i] != NULL)
+  {
+    printf("str[i] = %s\n", str[i]);
+    free(str[i]);
+    i++;
+  }
+  free(str);
+  return(0);
+}
+```
+- now compile with `gcc main.c -L. -lft` and run program `./a.out`
 <br/><br/>
 
 ## Skills
